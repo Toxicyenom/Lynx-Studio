@@ -86,7 +86,7 @@ export default function Page() {
 
                             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16" data-oid="t8p_3ew">
                                 <button className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all transform hover:scale-105" data-oid="qkqz:.u">
-                                    Try FigmaCode Studio
+                                    Try Lynx Studio
                                 </button>
                                 <button className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all" data-oid="i-4m_pe">
                                     Watch Demo
