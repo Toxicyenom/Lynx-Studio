@@ -46,46 +46,64 @@ export default function Page() {
         >
             {/* Navigation */}
             <nav
-                className="relative z-50 px-6 py-4 flex justify-between items-center border-b border-gray-800/50 backdrop-blur-sm"
+                className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center border-b border-gray-800/30 backdrop-blur-xl bg-gray-900/20 transition-all duration-300 hover:bg-gray-900/30"
                 data-oid="xkspztm"
             >
-                <div className="flex items-center space-x-2" data-oid="so8x--0">
+                <div
+                    className="flex items-center space-x-2 group cursor-pointer"
+                    data-oid="so8x--0"
+                >
                     <div
-                        className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center"
+                        className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12"
                         data-oid="zx-9pr8"
                     >
                         <span className="text-white font-bold text-sm" data-oid="xlg66vg">
-                            F2C
+                            LS
                         </span>
                     </div>
-                    <span className="text-xl font-semibold" data-oid="zady9-v">
+                    <span
+                        className="text-xl font-semibold transition-colors duration-300 group-hover:text-orange-400"
+                        data-oid="zady9-v"
+                    >
                         Lynx Studio
                     </span>
                 </div>
                 <div className="hidden md:flex items-center space-x-8" data-oid="_9.08u9">
                     <a
                         href="#features"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
                         data-oid="5yr_.ce"
                     >
                         Features
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                            data-oid="rb89b72"
+                        ></span>
                     </a>
                     <a
                         href="#pricing"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
                         data-oid="0v5pf9j"
                     >
                         Pricing
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                            data-oid="zssjr7q"
+                        ></span>
                     </a>
                     <a
                         href="#docs"
-                        className="text-gray-300 hover:text-white transition-colors"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
                         data-oid="uly7d4m"
                     >
                         Docs
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                            data-oid="u0uj83r"
+                        ></span>
                     </a>
                     <button
-                        className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all"
+                        className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5"
                         data-oid="br.0mn3"
                     >
                         Get Started
@@ -94,7 +112,7 @@ export default function Page() {
             </nav>
 
             {/* Hero Section */}
-            <main className="relative" data-oid="2cgbh3w">
+            <main className="relative pt-20" data-oid="2cgbh3w">
                 {/* Background Effects */}
                 <div
                     className="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-transparent to-purple-500/10"
@@ -147,13 +165,13 @@ export default function Page() {
                                 data-oid="xoz2ihb"
                             >
                                 <button
-                                    className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all transform hover:scale-105"
+                                    className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 active:scale-95"
                                     data-oid="lbbzcuv"
                                 >
                                     Try Lynx Studio
                                 </button>
                                 <button
-                                    className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all"
+                                    className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:border-gray-500 active:scale-95"
                                     data-oid="up-3x8n"
                                 >
                                     Watch Demo
@@ -169,11 +187,12 @@ export default function Page() {
                             {techStack.map((tech, index) => (
                                 <div
                                     key={tech.name}
-                                    className={`${tech.color} px-4 py-2 rounded-full text-sm font-medium flex items-center space-x-2 opacity-80 hover:opacity-100 transition-opacity`}
+                                    className={`${tech.color} px-4 py-2 rounded-full text-sm font-medium flex items-center space-x-2 opacity-80 hover:opacity-100 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer`}
                                     data-oid="q..8cw3"
+                                    style={{ animationDelay: `${index * 100}ms` }}
                                 >
                                     <div
-                                        className="w-2 h-2 bg-white rounded-full"
+                                        className="w-2 h-2 bg-white rounded-full animate-pulse"
                                         data-oid="eofpv_u"
                                     ></div>
                                     <span data-oid="zz5wy8p">{tech.name}</span>
@@ -205,7 +224,7 @@ export default function Page() {
                                     className="ml-4 bg-gray-800 px-4 py-1 rounded text-sm text-gray-400"
                                     data-oid="066jvtz"
                                 >
-                                    studio.figmacode.com
+                                    studio.lynx.com
                                 </div>
                             </div>
 
@@ -307,20 +326,29 @@ export default function Page() {
                         {features.map((feature, index) => (
                             <div
                                 key={index}
-                                className={`p-8 rounded-2xl border transition-all duration-500 hover:scale-105 ${
+                                className={`p-8 rounded-2xl border transition-all duration-500 hover:scale-105 hover:-translate-y-2 cursor-pointer group ${
                                     activeFeature === index
                                         ? 'bg-gradient-to-br from-gray-800/80 to-gray-900/80 border-orange-500/50 shadow-lg shadow-orange-500/10'
-                                        : 'bg-gray-900/50 border-gray-700/50 hover:border-gray-600/50'
+                                        : 'bg-gray-900/50 border-gray-700/50 hover:border-gray-600/50 hover:bg-gray-800/60'
                                 }`}
                                 data-oid="7bu1x42"
                             >
-                                <div className="text-4xl mb-4" data-oid="s.7zt90">
+                                <div
+                                    className="text-4xl mb-4 transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12"
+                                    data-oid="s.7zt90"
+                                >
                                     {feature.icon}
                                 </div>
-                                <h3 className="text-xl font-semibold mb-3" data-oid="72h.jk3">
+                                <h3
+                                    className="text-xl font-semibold mb-3 group-hover:text-orange-400 transition-colors duration-300"
+                                    data-oid="72h.jk3"
+                                >
                                     {feature.title}
                                 </h3>
-                                <p className="text-gray-400 leading-relaxed" data-oid="stijjuy">
+                                <p
+                                    className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
+                                    data-oid="stijjuy"
+                                >
                                     {feature.description}
                                 </p>
                             </div>
@@ -400,7 +428,7 @@ export default function Page() {
                         </span>
                     </h2>
                     <p className="text-xl text-gray-300 mb-8" data-oid="6tj8oxl">
-                        Join thousands of developers who are already building faster with FigmaCode
+                        Join thousands of developers who are already building faster with Lynx
                         Studio.
                     </p>
                     <div
@@ -408,13 +436,13 @@ export default function Page() {
                         data-oid=".q84wbx"
                     >
                         <button
-                            className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all transform hover:scale-105"
+                            className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 active:scale-95"
                             data-oid=":y16pwx"
                         >
                             Start Free Trial
                         </button>
                         <button
-                            className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all"
+                            className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:border-gray-500 active:scale-95"
                             data-oid="efsyxxk"
                         >
                             Schedule Demo
@@ -437,7 +465,7 @@ export default function Page() {
                                         className="text-white font-bold text-sm"
                                         data-oid="5wefeve"
                                     >
-                                        F2C
+                                        LS
                                     </span>
                                 </div>
                                 <span className="text-xl font-semibold" data-oid="f6i.vdx">
@@ -486,7 +514,7 @@ export default function Page() {
                         className="border-t border-gray-800/50 mt-12 pt-8 text-center text-gray-400"
                         data-oid="4mft583"
                     >
-                        <p data-oid=":vme6ml">&copy; 2024 FigmaCode Studio. All rights reserved.</p>
+                        <p data-oid=":vme6ml">&copy; 2024 Lynx Studio. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
