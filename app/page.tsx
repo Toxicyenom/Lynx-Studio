@@ -46,32 +46,32 @@ export default function Page() {
         >
             {/* Navigation */}
             <nav
-                className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center border-b border-gray-800/30 backdrop-blur-xl bg-gray-900/20 transition-all duration-300 hover:bg-gray-900/30"
+                className="fixed top-4 left-4 right-4 z-50 px-8 py-6 flex justify-between items-center border border-gray-800/30 backdrop-blur-xl bg-gray-900/20 transition-all duration-300 hover:bg-gray-900/30 rounded-2xl shadow-lg"
                 data-oid="xkspztm"
             >
                 <div
-                    className="flex items-center space-x-2 group cursor-pointer"
+                    className="flex items-center space-x-3 group cursor-pointer"
                     data-oid="so8x--0"
                 >
                     <div
-                        className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12"
+                        className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12"
                         data-oid="zx-9pr8"
                     >
-                        <span className="text-white font-bold text-sm" data-oid="xlg66vg">
+                        <span className="text-white font-bold text-base" data-oid="xlg66vg">
                             LS
                         </span>
                     </div>
                     <span
-                        className="text-xl font-semibold transition-colors duration-300 group-hover:text-orange-400"
+                        className="text-2xl font-bold transition-colors duration-300 group-hover:text-orange-400"
                         data-oid="zady9-v"
                     >
                         Lynx Studio
                     </span>
                 </div>
-                <div className="hidden md:flex items-center space-x-8" data-oid="_9.08u9">
+                <div className="hidden lg:flex items-center space-x-6" data-oid="_9.08u9">
                     <a
                         href="#features"
-                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
                         data-oid="5yr_.ce"
                     >
                         Features
@@ -82,7 +82,7 @@ export default function Page() {
                     </a>
                     <a
                         href="#pricing"
-                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
                         data-oid="0v5pf9j"
                     >
                         Pricing
@@ -92,8 +92,18 @@ export default function Page() {
                         ></span>
                     </a>
                     <a
+                        href="#api"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
+                        data-oid="api-link"
+                    >
+                        API
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                        ></span>
+                    </a>
+                    <a
                         href="#docs"
-                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
                         data-oid="uly7d4m"
                     >
                         Docs
@@ -102,8 +112,29 @@ export default function Page() {
                             data-oid="u0uj83r"
                         ></span>
                     </a>
+                    <a
+                        href="#community"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
+                        data-oid="community-link"
+                    >
+                        Community
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                        ></span>
+                    </a>
+                    <a
+                        href="#support"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
+                        data-oid="support-link"
+                    >
+                        Support
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                        ></span>
+                    </a>
                     <button
-                        className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5"
+                        onClick={() => window.location.href = '/upload'}
+                        className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-3 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5"
                         data-oid="br.0mn3"
                     >
                         Get Started
@@ -112,7 +143,7 @@ export default function Page() {
             </nav>
 
             {/* Hero Section */}
-            <main className="relative pt-20" data-oid="2cgbh3w">
+            <main className="relative pt-32" data-oid="2cgbh3w">
                 {/* Background Effects */}
                 <div
                     className="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-transparent to-purple-500/10"
@@ -165,6 +196,7 @@ export default function Page() {
                                 data-oid="xoz2ihb"
                             >
                                 <button
+                                    onClick={() => window.location.href = '/upload'}
                                     className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 active:scale-95"
                                     data-oid="lbbzcuv"
                                 >
@@ -452,8 +484,17 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer className="border-t border-gray-800/50 py-12 px-6" data-oid="yx5naxv">
-                <div className="max-w-7xl mx-auto" data-oid="a1o:.u4">
+            <footer 
+                className="relative border-t border-gray-800/50 py-12 px-6 overflow-hidden" 
+                data-oid="yx5naxv"
+                style={{
+                    backgroundImage: 'url(/fire.avif)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
+                }}
+            >
+                <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div<div className="relative z-10 max-w-7xl mx-auto" data-oid="a1o:.u4">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="u_ycfkl">
                         <div data-oid="k34vc21">
                             <div className="flex items-center space-x-2 mb-4" data-oid="xohq7y2">
