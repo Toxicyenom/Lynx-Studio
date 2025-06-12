@@ -137,7 +137,10 @@ export default function Page() {
                                 >
                                     Try Lynx Studio
                                 </button>
-                                <button className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:border-gray-500 active:scale-95">
+                                <button
+                                    className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:border-gray-500 active:scale-95"
+                                    onClick={() => window.open('https://youtu.be/dQw4w9WgXcQ?si=xEccMNjUb3quUfPt', '_blank')}
+                                >
                                     Watch Demo
                                 </button>
                             </div>
