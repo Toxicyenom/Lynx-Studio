@@ -573,15 +573,21 @@ export default function Page() {
             <footer
         className="relative border-t border-gray-800/50 py-12 px-6 overflow-hidden"
         style={{
-          backgroundImage: 'url(/fire.avif)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          background: 'linear-gradient(135deg, #ff6b35 0%, #f7931e 25%, #ffd23f 50%, #ff6b35 75%, #8b5cf6 100%)',
+          backgroundSize: '400% 400%',
+          animation: 'gradientShift 15s ease infinite'
         }}
         data-oid="19d87ui">
 
+                <style jsx data-oid="7.imw6k">{`
+                    @keyframes gradientShift {
+                        0% { background-position: 0% 50%; }
+                        50% { background-position: 100% 50%; }
+                        100% { background-position: 0% 50%; }
+                    }
+                `}</style>
                 <div
-          className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+          className="absolute inset-0 bg-black/30 backdrop-blur-sm"
           data-oid="tleo8yz">
         </div>
                 <div className="relative z-10 max-w-7xl mx-auto" data-oid=":.5xz9.">
