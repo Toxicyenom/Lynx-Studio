@@ -46,32 +46,32 @@ export default function Page() {
         >
             {/* Navigation */}
             <nav
-                className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center border-b border-gray-800/30 backdrop-blur-xl bg-gray-900/20 transition-all duration-300 hover:bg-gray-900/30"
+                className="fixed top-4 left-4 right-4 z-50 px-8 py-6 flex justify-between items-center border border-gray-800/30 backdrop-blur-xl bg-gray-900/20 transition-all duration-300 hover:bg-gray-900/30 rounded-2xl shadow-lg"
                 data-oid="8rkdpes"
             >
                 <div
-                    className="flex items-center space-x-2 group cursor-pointer"
+                    className="flex items-center space-x-3 group cursor-pointer"
                     data-oid="9_rlocp"
                 >
                     <div
-                        className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12"
+                        className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12"
                         data-oid="z508924"
                     >
-                        <span className="text-white font-bold text-sm" data-oid="bgex3z6">
+                        <span className="text-white font-bold text-base" data-oid="bgex3z6">
                             LS
                         </span>
                     </div>
                     <span
-                        className="text-xl font-semibold transition-colors duration-300 group-hover:text-orange-400"
+                        className="text-2xl font-bold transition-colors duration-300 group-hover:text-orange-400"
                         data-oid="d0gdz0x"
                     >
                         Lynx Studio
                     </span>
                 </div>
-                <div className="hidden md:flex items-center space-x-8" data-oid="4b6stci">
+                <div className="hidden lg:flex items-center space-x-6" data-oid="4b6stci">
                     <a
                         href="#features"
-                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
                         data-oid="w:8-ify"
                     >
                         Features
@@ -82,7 +82,7 @@ export default function Page() {
                     </a>
                     <a
                         href="#pricing"
-                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
                         data-oid=".2_84bb"
                     >
                         Pricing
@@ -92,8 +92,19 @@ export default function Page() {
                         ></span>
                     </a>
                     <a
+                        href="#api"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
+                        data-oid="pmg3ial"
+                    >
+                        API
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                            data-oid="m418jtz"
+                        ></span>
+                    </a>
+                    <a
                         href="#docs"
-                        className="text-gray-300 hover:text-white transition-all duration-300 relative group"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
                         data-oid="slgft99"
                     >
                         Docs
@@ -102,8 +113,31 @@ export default function Page() {
                             data-oid="x20ncxp"
                         ></span>
                     </a>
+                    <a
+                        href="#community"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
+                        data-oid="2j897r9"
+                    >
+                        Community
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                            data-oid="4lu1t16"
+                        ></span>
+                    </a>
+                    <a
+                        href="#support"
+                        className="text-gray-300 hover:text-white transition-all duration-300 relative group px-3 py-2"
+                        data-oid="2y.9nd0"
+                    >
+                        Support
+                        <span
+                            className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
+                            data-oid="o_t.-.c"
+                        ></span>
+                    </a>
                     <button
-                        className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5"
+                        onClick={() => (window.location.href = '/upload')}
+                        className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-3 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5"
                         data-oid="2ic0fhu"
                     >
                         Get Started
@@ -112,7 +146,7 @@ export default function Page() {
             </nav>
 
             {/* Hero Section */}
-            <main className="relative pt-20" data-oid="e0sx3pd">
+            <main className="relative pt-32" data-oid="e0sx3pd">
                 {/* Background Effects */}
                 <div
                     className="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-transparent to-purple-500/10"
@@ -165,6 +199,7 @@ export default function Page() {
                                 data-oid="9dv8aw4"
                             >
                                 <button
+                                    onClick={() => (window.location.href = '/upload')}
                                     className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 active:scale-95"
                                     data-oid="n2w7yn."
                                 >
@@ -452,8 +487,21 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer className="border-t border-gray-800/50 py-12 px-6" data-oid="cne4krp">
-                <div className="max-w-7xl mx-auto" data-oid="eox:e4d">
+            <footer
+                className="relative border-t border-gray-800/50 py-12 px-6 overflow-hidden"
+                data-oid="cne4krp"
+                style={{
+                    backgroundImage: 'url(/fire.avif)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                }}
+            >
+                <div
+                    className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+                    data-oid="039en_4"
+                ></div>
+                <div className="relative z-10 max-w-7xl mx-auto" data-oid="eox:e4d">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="dn6fnfv">
                         <div data-oid="ex_2y8x">
                             <div className="flex items-center space-x-2 mb-4" data-oid="jok:dwr">
