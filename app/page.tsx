@@ -42,69 +42,69 @@ export default function Page() {
     return (
         <div
             className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white overflow-hidden"
-            data-oid="wd-7ae_"
+            data-oid="bcpd88j"
         >
             {/* Navigation */}
             <nav
                 className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center border-b border-gray-800/30 backdrop-blur-xl bg-gray-900/20 transition-all duration-300 hover:bg-gray-900/30"
-                data-oid="mgp1gde"
+                data-oid="8rkdpes"
             >
                 <div
                     className="flex items-center space-x-2 group cursor-pointer"
-                    data-oid="x9-w308"
+                    data-oid="9_rlocp"
                 >
                     <div
                         className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12"
-                        data-oid="_bb.7w3"
+                        data-oid="z508924"
                     >
-                        <span className="text-white font-bold text-sm" data-oid="3h:dhhn">
+                        <span className="text-white font-bold text-sm" data-oid="bgex3z6">
                             LS
                         </span>
                     </div>
                     <span
                         className="text-xl font-semibold transition-colors duration-300 group-hover:text-orange-400"
-                        data-oid="zeeo.lh"
+                        data-oid="d0gdz0x"
                     >
                         Lynx Studio
                     </span>
                 </div>
-                <div className="hidden md:flex items-center space-x-8" data-oid="f34il-l">
+                <div className="hidden md:flex items-center space-x-8" data-oid="4b6stci">
                     <a
                         href="#features"
                         className="text-gray-300 hover:text-white transition-all duration-300 relative group"
-                        data-oid=":r4sz99"
+                        data-oid="w:8-ify"
                     >
                         Features
                         <span
                             className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
-                            data-oid="qcc6h.d"
+                            data-oid="2:-sa13"
                         ></span>
                     </a>
                     <a
                         href="#pricing"
                         className="text-gray-300 hover:text-white transition-all duration-300 relative group"
-                        data-oid="ma7e_rm"
+                        data-oid=".2_84bb"
                     >
                         Pricing
                         <span
                             className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
-                            data-oid="2toyzrb"
+                            data-oid="v2o6-9u"
                         ></span>
                     </a>
                     <a
                         href="#docs"
                         className="text-gray-300 hover:text-white transition-all duration-300 relative group"
-                        data-oid="21gsqa:"
+                        data-oid="slgft99"
                     >
                         Docs
                         <span
                             className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full"
-                            data-oid="d18j5qn"
+                            data-oid="x20ncxp"
                         ></span>
                     </a>
                     <button
                         className="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-0.5"
-                        data-oid="smy78::"
+                        data-oid="2ic0fhu"
                     >
                         Get Started
                     </button>
@@ -112,48 +112,48 @@ export default function Page() {
             </nav>
 
             {/* Hero Section */}
-            <main className="relative pt-20" data-oid="v-gvni5">
+            <main className="relative pt-20" data-oid="e0sx3pd">
                 {/* Background Effects */}
                 <div
                     className="absolute inset-0 bg-gradient-to-r from-orange-500/10 via-transparent to-purple-500/10"
-                    data-oid="3_zqakq"
+                    data-oid="_x_-6w3"
                 ></div>
                 <div
                     className="absolute top-1/4 left-1/4 w-96 h-96 bg-orange-500/20 rounded-full blur-3xl"
-                    data-oid="wbu323d"
+                    data-oid="-f:6kaa"
                 ></div>
                 <div
                     className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"
-                    data-oid="j_916qa"
+                    data-oid="gt2rj0g"
                 ></div>
 
-                <div className="relative z-10 max-w-7xl mx-auto px-6 py-20" data-oid="633ggkf">
-                    <div className="text-center mb-16" data-oid="onhs3x7">
+                <div className="relative z-10 max-w-7xl mx-auto px-6 py-20" data-oid="5zv8q8x">
+                    <div className="text-center mb-16" data-oid="9o.258p">
                         <div
                             className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                            data-oid="0t1jyom"
+                            data-oid="_.bim4w"
                         >
                             <h1
                                 className="text-6xl md:text-8xl font-bold mb-6 leading-tight"
-                                data-oid="mhzjb-:"
+                                data-oid="e_e4h_i"
                             >
                                 Transform{' '}
                                 <span
                                     className="bg-gradient-to-r from-orange-500 via-yellow-500 to-green-500 bg-clip-text text-transparent"
-                                    data-oid="hoj17.n"
+                                    data-oid="0:uk7ru"
                                 >
                                     Figma Files
                                 </span>
-                                <br data-oid="h2z19ar" />
+                                <br data-oid="18x71ae" />
                                 into production-ready{' '}
-                                <span className="text-gray-400" data-oid="rqv:2cx">
+                                <span className="text-gray-400" data-oid="ukzgl95">
                                     code
                                 </span>
                             </h1>
 
                             <p
                                 className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed"
-                                data-oid="hqvne4u"
+                                data-oid=".70d0xz"
                             >
                                 Lynx Studio accelerates your entire development lifecycle with AI
                                 agents. Convert designs to React Native, React, and mobile apps, all
@@ -162,17 +162,17 @@ export default function Page() {
 
                             <div
                                 className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
-                                data-oid="gp220gy"
+                                data-oid="9dv8aw4"
                             >
                                 <button
                                     className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 active:scale-95"
-                                    data-oid="_g36bwg"
+                                    data-oid="n2w7yn."
                                 >
                                     Try Lynx Studio
                                 </button>
                                 <button
                                     className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:border-gray-500 active:scale-95"
-                                    data-oid="u_50swg"
+                                    data-oid="ac:yg7_"
                                 >
                                     Watch Demo
                                 </button>
@@ -182,69 +182,69 @@ export default function Page() {
                         {/* Tech Stack Pills */}
                         <div
                             className="flex flex-wrap justify-center gap-3 mb-16"
-                            data-oid="nej89tz"
+                            data-oid="dlig5z_"
                         >
                             {techStack.map((tech, index) => (
                                 <div
                                     key={tech.name}
                                     className={`${tech.color} px-4 py-2 rounded-full text-sm font-medium flex items-center space-x-2 opacity-80 hover:opacity-100 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 cursor-pointer`}
                                     style={{ animationDelay: `${index * 100}ms` }}
-                                    data-oid="qn64-wh"
+                                    data-oid="p.m2nqh"
                                 >
                                     <div
                                         className="w-2 h-2 bg-white rounded-full animate-pulse"
-                                        data-oid="ktdjmms"
+                                        data-oid="uqu.fgt"
                                     ></div>
-                                    <span data-oid="svvskwy">{tech.name}</span>
+                                    <span data-oid="j1gdrtg">{tech.name}</span>
                                 </div>
                             ))}
                         </div>
                     </div>
 
                     {/* Mock Browser Window */}
-                    <div className="max-w-5xl mx-auto" data-oid="qf3k3-k">
+                    <div className="max-w-5xl mx-auto" data-oid="iuxbg4d">
                         <div
                             className="bg-gray-900/80 backdrop-blur-sm rounded-t-xl border border-gray-700/50 p-4"
-                            data-oid="m_kze_9"
+                            data-oid="k8r8cs6"
                         >
-                            <div className="flex items-center space-x-2 mb-4" data-oid="4u4s:6g">
+                            <div className="flex items-center space-x-2 mb-4" data-oid="45j8i3o">
                                 <div
                                     className="w-3 h-3 bg-red-500 rounded-full"
-                                    data-oid="dwhjvt7"
+                                    data-oid="ju1u:v-"
                                 ></div>
                                 <div
                                     className="w-3 h-3 bg-yellow-500 rounded-full"
-                                    data-oid="tst1fis"
+                                    data-oid="6v5fpps"
                                 ></div>
                                 <div
                                     className="w-3 h-3 bg-green-500 rounded-full"
-                                    data-oid="azaqi0t"
+                                    data-oid="eox:-ih"
                                 ></div>
                                 <div
                                     className="ml-4 bg-gray-800 px-4 py-1 rounded text-sm text-gray-400"
-                                    data-oid="vdophf_"
+                                    data-oid="lzizsn0"
                                 >
                                     studio.lynx.com
                                 </div>
                             </div>
 
-                            <div className="bg-black/50 rounded-lg p-6 min-h-96" data-oid="oddpodd">
+                            <div className="bg-black/50 rounded-lg p-6 min-h-96" data-oid="tjus_6:">
                                 <div
                                     className="flex items-center justify-between mb-6"
-                                    data-oid="c_cj7x8"
+                                    data-oid="sw:-x3."
                                 >
-                                    <div className="flex items-center space-x-3" data-oid="bcq44fw">
+                                    <div className="flex items-center space-x-3" data-oid="vjc0ems">
                                         <div
                                             className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded"
-                                            data-oid="zx8kgl-"
+                                            data-oid="x96d0w_"
                                         ></div>
-                                        <span className="text-white font-medium" data-oid="2l77e68">
+                                        <span className="text-white font-medium" data-oid="cj9mc:s">
                                             My Figma Project
                                         </span>
                                     </div>
                                     <button
                                         className="bg-blue-600 px-4 py-2 rounded text-sm"
-                                        data-oid="ow__78c"
+                                        data-oid="7lw0990"
                                     >
                                         Generate Code
                                     </button>
@@ -252,49 +252,49 @@ export default function Page() {
 
                                 <div
                                     className="grid grid-cols-1 md:grid-cols-2 gap-6"
-                                    data-oid="ler-gwk"
+                                    data-oid="rph-bvd"
                                 >
-                                    <div className="space-y-3" data-oid="_g:btpb">
+                                    <div className="space-y-3" data-oid="f_3rf-6">
                                         <div
                                             className="h-4 bg-gray-700 rounded w-3/4"
-                                            data-oid="jtkr1wp"
+                                            data-oid="g0kwd_8"
                                         ></div>
                                         <div
                                             className="h-4 bg-gray-700 rounded w-1/2"
-                                            data-oid="icawa4c"
+                                            data-oid="n:9-3m2"
                                         ></div>
                                         <div
                                             className="h-32 bg-gradient-to-br from-gray-700 to-gray-800 rounded"
-                                            data-oid="3etosvj"
+                                            data-oid=":s:o:9e"
                                         ></div>
                                     </div>
-                                    <div className="space-y-2" data-oid="8sjsvnz">
+                                    <div className="space-y-2" data-oid="v3viw2b">
                                         <div
                                             className="text-green-400 text-sm font-mono"
-                                            data-oid="vdz6rsx"
+                                            data-oid=":2ni_kx"
                                         >
                                             // Generated React Native Code
                                         </div>
                                         <div
                                             className="bg-gray-900 p-4 rounded text-sm font-mono"
-                                            data-oid="1jyvqlg"
+                                            data-oid="6aeq4du"
                                         >
-                                            <div className="text-blue-400" data-oid="r42_mox">
+                                            <div className="text-blue-400" data-oid="yl7lboo">
                                                 import React from 'react';
                                             </div>
-                                            <div className="text-purple-400" data-oid="2bvx_zq">
+                                            <div className="text-purple-400" data-oid="kz3jtim">
                                                 const Component = () =&gt; {'{'}
                                             </div>
-                                            <div className="text-gray-300 ml-4" data-oid="wtz2q1_">
+                                            <div className="text-gray-300 ml-4" data-oid="c1y2f7x">
                                                 return (
                                             </div>
                                             <div
                                                 className="text-yellow-400 ml-8"
-                                                data-oid="lram_.-"
+                                                data-oid=".yj.zds"
                                             >
                                                 &lt;View style={`{styles.container}`}&gt;
                                             </div>
-                                            <div className="text-gray-500 ml-12" data-oid="1ly9kya">
+                                            <div className="text-gray-500 ml-12" data-oid="a6u7p4-">
                                                 ...
                                             </div>
                                         </div>
@@ -307,22 +307,22 @@ export default function Page() {
             </main>
 
             {/* Features Section */}
-            <section id="features" className="relative py-20 px-6" data-oid="f.od4b8">
-                <div className="max-w-7xl mx-auto" data-oid="w8to41f">
+            <section id="features" className="relative py-20 px-6" data-oid="3h4nlb-">
+                <div className="max-w-7xl mx-auto" data-oid="h8-k27k">
                     <h2
                         className="text-4xl md:text-5xl font-bold text-center mb-16"
-                        data-oid="jpy2ag3"
+                        data-oid="fl52lbk"
                     >
                         Powerful Features for{' '}
                         <span
                             className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
-                            data-oid="f7h1j72"
+                            data-oid="lq6f_c9"
                         >
                             Modern Development
                         </span>
                     </h2>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="iuw.scj">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="jlt0ip_">
                         {features.map((feature, index) => (
                             <div
                                 key={index}
@@ -331,23 +331,23 @@ export default function Page() {
                                         ? 'bg-gradient-to-br from-gray-800/80 to-gray-900/80 border-orange-500/50 shadow-lg shadow-orange-500/10'
                                         : 'bg-gray-900/50 border-gray-700/50 hover:border-gray-600/50 hover:bg-gray-800/60'
                                 }`}
-                                data-oid="b4ngw7:"
+                                data-oid="bmxukaa"
                             >
                                 <div
                                     className="text-4xl mb-4 transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12"
-                                    data-oid="20fpm7h"
+                                    data-oid="qlic-17"
                                 >
                                     {feature.icon}
                                 </div>
                                 <h3
                                     className="text-xl font-semibold mb-3 group-hover:text-orange-400 transition-colors duration-300"
-                                    data-oid="6hv-y4r"
+                                    data-oid="6y_l732"
                                 >
                                     {feature.title}
                                 </h3>
                                 <p
                                     className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors duration-300"
-                                    data-oid="q:67f7w"
+                                    data-oid="3ujixdu"
                                 >
                                     {feature.description}
                                 </p>
@@ -360,54 +360,54 @@ export default function Page() {
             {/* Stats Section */}
             <section
                 className="py-20 px-6 bg-gradient-to-r from-gray-900/50 to-black/50"
-                data-oid="0hzw:yp"
+                data-oid="st.7mur"
             >
-                <div className="max-w-7xl mx-auto" data-oid="88y0.35">
+                <div className="max-w-7xl mx-auto" data-oid="lb3od7:">
                     <div
                         className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
-                        data-oid="71hmgjx"
+                        data-oid="781p1km"
                     >
-                        <div data-oid=".a3hr09">
+                        <div data-oid="q7v5wdp">
                             <div
                                 className="text-4xl font-bold text-orange-500 mb-2"
-                                data-oid="7yvbark"
+                                data-oid=".hd7fg_"
                             >
                                 10K+
                             </div>
-                            <div className="text-gray-400" data-oid="e0vk_la">
+                            <div className="text-gray-400" data-oid="7enuorv">
                                 Designs Converted
                             </div>
                         </div>
-                        <div data-oid="-5f:h3k">
+                        <div data-oid="u.pfsdq">
                             <div
                                 className="text-4xl font-bold text-blue-500 mb-2"
-                                data-oid="m45d6r3"
+                                data-oid="acccqyi"
                             >
                                 500+
                             </div>
-                            <div className="text-gray-400" data-oid="vkjpruk">
+                            <div className="text-gray-400" data-oid="-v-8lds">
                                 Happy Developers
                             </div>
                         </div>
-                        <div data-oid="v4rmzgk">
+                        <div data-oid="mn.2jqt">
                             <div
                                 className="text-4xl font-bold text-green-500 mb-2"
-                                data-oid="y1woqqt"
+                                data-oid="7do.o7:"
                             >
                                 95%
                             </div>
-                            <div className="text-gray-400" data-oid="_43lf-4">
+                            <div className="text-gray-400" data-oid="8xd0vaq">
                                 Code Accuracy
                             </div>
                         </div>
-                        <div data-oid="lfzxx7y">
+                        <div data-oid="wo5ufy1">
                             <div
                                 className="text-4xl font-bold text-purple-500 mb-2"
-                                data-oid="3h3gu5o"
+                                data-oid="3hkzfv8"
                             >
                                 24/7
                             </div>
-                            <div className="text-gray-400" data-oid="b7w8ggc">
+                            <div className="text-gray-400" data-oid="g._sc9q">
                                 AI Support
                             </div>
                         </div>
@@ -416,34 +416,34 @@ export default function Page() {
             </section>
 
             {/* CTA Section */}
-            <section className="py-20 px-6" data-oid="asp5l1r">
-                <div className="max-w-4xl mx-auto text-center" data-oid="bzj5wwz">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-6" data-oid="mc.r24t">
+            <section className="py-20 px-6" data-oid="r9j:g4l">
+                <div className="max-w-4xl mx-auto text-center" data-oid=":qekj4b">
+                    <h2 className="text-4xl md:text-5xl font-bold mb-6" data-oid="w0aie52">
                         Ready to accelerate your{' '}
                         <span
                             className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent"
-                            data-oid="nrl..fo"
+                            data-oid="dec2r7d"
                         >
                             development workflow?
                         </span>
                     </h2>
-                    <p className="text-xl text-gray-300 mb-8" data-oid="0y4gwh-">
+                    <p className="text-xl text-gray-300 mb-8" data-oid="9ofee:_">
                         Join thousands of developers who are already building faster with Lynx
                         Studio.
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"
-                        data-oid="ksqq0pk"
+                        data-oid="sf97dty"
                     >
                         <button
                             className="bg-gradient-to-r from-orange-500 to-red-500 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg hover:shadow-orange-500/25 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 active:scale-95"
-                            data-oid="t3m7jbi"
+                            data-oid="evbh7is"
                         >
                             Start Free Trial
                         </button>
                         <button
                             className="border border-gray-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:border-gray-500 active:scale-95"
-                            data-oid="y17:kaz"
+                            data-oid="0a06rgh"
                         >
                             Schedule Demo
                         </button>
@@ -452,69 +452,69 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer className="border-t border-gray-800/50 py-12 px-6" data-oid="orxo6w4">
-                <div className="max-w-7xl mx-auto" data-oid="m67l-_h">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="k72o88k">
-                        <div data-oid="f-na2p9">
-                            <div className="flex items-center space-x-2 mb-4" data-oid="39e3sx8">
+            <footer className="border-t border-gray-800/50 py-12 px-6" data-oid="cne4krp">
+                <div className="max-w-7xl mx-auto" data-oid="eox:e4d">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="dn6fnfv">
+                        <div data-oid="ex_2y8x">
+                            <div className="flex items-center space-x-2 mb-4" data-oid="jok:dwr">
                                 <div
                                     className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center"
-                                    data-oid="wilfu_e"
+                                    data-oid="1cn3.xk"
                                 >
                                     <span
                                         className="text-white font-bold text-sm"
-                                        data-oid="gnn73--"
+                                        data-oid="52qdtb9"
                                     >
                                         LS
                                     </span>
                                 </div>
-                                <span className="text-xl font-semibold" data-oid=":q8a2hv">
+                                <span className="text-xl font-semibold" data-oid="2y-8-uq">
                                     Lynx Studio
                                 </span>
                             </div>
-                            <p className="text-gray-400" data-oid="52h0irm">
+                            <p className="text-gray-400" data-oid="3u_0:xo">
                                 Transform your design workflow with AI-powered code generation.
                             </p>
                         </div>
-                        <div data-oid="wujw:-3">
-                            <h4 className="font-semibold mb-4" data-oid="yu9a1s_">
+                        <div data-oid="3:8yx8d">
+                            <h4 className="font-semibold mb-4" data-oid="14j_4ea">
                                 Product
                             </h4>
-                            <div className="space-y-2 text-gray-400" data-oid="r6ydm9.">
-                                <div data-oid="wrjw9.t">Features</div>
-                                <div data-oid="k:6-zb_">Pricing</div>
-                                <div data-oid="8m:irng">API</div>
-                                <div data-oid="ly9g013">Integrations</div>
+                            <div className="space-y-2 text-gray-400" data-oid="e4mg8gq">
+                                <div data-oid="0xb2qms">Features</div>
+                                <div data-oid="fo7q0dk">Pricing</div>
+                                <div data-oid="2t33ett">API</div>
+                                <div data-oid="kb.wwun">Integrations</div>
                             </div>
                         </div>
-                        <div data-oid="iwfa3pa">
-                            <h4 className="font-semibold mb-4" data-oid="h6z7h53">
+                        <div data-oid="qbizf3b">
+                            <h4 className="font-semibold mb-4" data-oid="9wzvi_q">
                                 Resources
                             </h4>
-                            <div className="space-y-2 text-gray-400" data-oid="s1mp29s">
-                                <div data-oid="cefwhow">Documentation</div>
-                                <div data-oid=":0z9jle">Tutorials</div>
-                                <div data-oid="d2yo7xq">Blog</div>
-                                <div data-oid="5b5hs2x">Community</div>
+                            <div className="space-y-2 text-gray-400" data-oid="005btdz">
+                                <div data-oid="ss0j1ix">Documentation</div>
+                                <div data-oid="1t9y7d-">Tutorials</div>
+                                <div data-oid="lfkrn_y">Blog</div>
+                                <div data-oid=":f9c2e3">Community</div>
                             </div>
                         </div>
-                        <div data-oid="0pn318w">
-                            <h4 className="font-semibold mb-4" data-oid="hbuk_:9">
+                        <div data-oid="q8er02u">
+                            <h4 className="font-semibold mb-4" data-oid="9hy.9oz">
                                 Company
                             </h4>
-                            <div className="space-y-2 text-gray-400" data-oid="da25722">
-                                <div data-oid="d2z9k4e">About</div>
-                                <div data-oid="l9ab6b6">Careers</div>
-                                <div data-oid="b3nvbc.">Contact</div>
-                                <div data-oid="_3wg5rw">Privacy</div>
+                            <div className="space-y-2 text-gray-400" data-oid=":29f-b7">
+                                <div data-oid="v98ek3q">About</div>
+                                <div data-oid="w2s1_tn">Careers</div>
+                                <div data-oid="find7b7">Contact</div>
+                                <div data-oid="gs0dkhf">Privacy</div>
                             </div>
                         </div>
                     </div>
                     <div
                         className="border-t border-gray-800/50 mt-12 pt-8 text-center text-gray-400"
-                        data-oid=".gv9m5q"
+                        data-oid="::yft.h"
                     >
-                        <p data-oid="5mdlh45">&copy; 2024 Lynx Studio. All rights reserved.</p>
+                        <p data-oid="0s904fd">&copy; 2024 Lynx Studio. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
