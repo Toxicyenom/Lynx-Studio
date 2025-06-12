@@ -472,28 +472,7 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer
-                className="relative border-t border-gray-800/50 py-12 px-6 overflow-hidden"
-                style={{
-                    background:
-                        'linear-gradient(135deg, #ff6b35 0%, #f7931e 25%, #ffd23f 50%, #ff6b35 75%, #8b5cf6 100%)',
-                    backgroundSize: '400% 400%',
-                    animation: 'gradientShift 15s ease infinite',
-                }}
-            >
-                <style jsx>{`
-                    @keyframes gradientShift {
-                        0% {
-                            background-position: 0% 50%;
-                        }
-                        50% {
-                            background-position: 100% 50%;
-                        }
-                        100% {
-                            background-position: 0% 50%;
-                        }
-                    }
-                `}</style>
+            <footer className="footer-animated-bg relative border-t border-gray-800/50 py-12 px-6 overflow-hidden">
                 <div className="absolute inset-0 bg-black/30 backdrop-blur-sm"></div>
                 <div className="relative z-10 max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
