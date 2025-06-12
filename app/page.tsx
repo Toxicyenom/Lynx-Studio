@@ -266,7 +266,7 @@ export default function Page() {
                                                         <span className="text-blue-400">from</span>
                                                         <span className="text-green-400">
                                                             {' '}
-                                                            'react'
+                                                            &#39;react&#39;
                                                         </span>
                                                         <span className="text-white">;</span>
                                                     </div>
@@ -284,7 +284,7 @@ export default function Page() {
                                                         <span className="text-blue-400">from</span>
                                                         <span className="text-green-400">
                                                             {' '}
-                                                            'react-native'
+                                                            &#39;react-native&#39;
                                                         </span>
                                                         <span className="text-white">;</span>
                                                     </div>
